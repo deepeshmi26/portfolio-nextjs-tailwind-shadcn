@@ -1,8 +1,6 @@
-import "../styles/globals.css";
 import { FC, ReactNode } from "react";
 import Navbar from "../components/Navbar";
-import { cn } from "@/lib/utils";
-import { Head } from "next/document";
+import "../styles/globals.css";
 const Layout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <html lang="en">
