@@ -51,7 +51,7 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
         <p className="text-gray-400 text-sm">{period}</p>
         <p
           className="text-sm line-clamp-4"
-          dangerouslySetInnerHTML={{ __html: description }}
+          dangerouslySetInnerHTML={{ __html: description as any }}
         />
       </div>
       <div className="flex w-full items-end justify-end py-2 px-4">

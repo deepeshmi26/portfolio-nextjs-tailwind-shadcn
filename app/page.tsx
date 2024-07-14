@@ -39,10 +39,9 @@ const HomePage: FC = () => {
           </div>
         </div>
       </Section>
-      <Projects />
       <CareerTimeline />
-
       <Skills />
+      <Projects />
     </main>
   );
 };
