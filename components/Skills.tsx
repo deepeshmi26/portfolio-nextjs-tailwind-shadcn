@@ -7,14 +7,20 @@ export function Skills() {
   return (
     <Section id="skills" title="Skills">
       <div className="flex flex-col gap-4">
-        {skillsArray.map((section) => {
+        {skillsArray.map((section, index) => {
           return (
-            <div className="border p-4 rounded-lg flex flex-col gap-4 md:w-fit max-w-full ">
+            <div
+              key={index}
+              className="border p-4 rounded-lg flex flex-col gap-4 md:w-fit max-w-full "
+            >
               <div className="font-bold text-lg">{section.sectionTitle}</div>
               <div className="flex flex-wrap items-center gap-8">
-                {section.skills.map((skill) => {
+                {section.skills.map((skill, index) => {
                   return (
-                    <div className="min-h-20 min-w-20 hover:scale-125 transform transition duration-100 bg-white">
+                    <div
+                      key={index}
+                      className="min-h-20 min-w-20 hover:scale-125 transform transition duration-100 bg-white"
+                    >
                       <img
                         alt={skill.title}
                         className="h-20 w-20 object-contain "

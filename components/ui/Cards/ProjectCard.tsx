@@ -19,7 +19,6 @@ const ProjectCard: FC<ExperienceCardProps> = ({
   img,
   className,
   description,
-  link,
 }) => {
   return (
     <div

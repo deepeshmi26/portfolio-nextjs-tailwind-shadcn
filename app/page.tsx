@@ -14,7 +14,7 @@ const HomePage: FC = () => {
       <Section id="about-me" title="About me">
         <div className="flex flex-col gap-2">
           <p>
-            I'm a Software developer with vast experience in backend and data.
+            I am a Software developer with vast experience in backend and data.
           </p>
           <div className="bg-purple-50 text-purple-600 p-4 flex flex-row flex-wrap gap-4 justify-between">
             <div className="">

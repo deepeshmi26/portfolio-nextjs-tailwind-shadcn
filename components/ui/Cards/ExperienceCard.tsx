@@ -74,7 +74,7 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
             <p className="text-gray-400 text-sm">{period}</p>
             <p
               className="text-sm"
-              dangerouslySetInnerHTML={{ __html: description }}
+              dangerouslySetInnerHTML={{ __html: description as any }}
             />
           </DialogContent>
         </Dialog>
