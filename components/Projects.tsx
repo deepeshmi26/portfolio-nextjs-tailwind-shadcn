@@ -4,38 +4,50 @@ import Section from "./Section";
 
 type Props = {};
 
+const ProjectsList = [
+  {
+    img: "/moviecloud.png",
+    title: "Movie cloud",
+    company: "Layers",
+    period: "May 2020 - Present",
+    link: "https://github.com/dhanendraverma/MovieCloud",
+    description: "A website to give you better insights on latest movies",
+  },
+  {
+    img: "/testcircle.png",
+    title: "Text circle",
+    company: "Layers",
+    period: "May 2020 - Present",
+    link: "https://github.com/dhanendraverma/TextCircle",
+    description:
+      "A collaborative text editor which allows the users to simultaneously edit and see the docs and codes.",
+  },
+  {
+    img: "/jsonlogo.png",
+    title: "Albums share",
+    company: "Layers",
+    period: "May 2020 - Present",
+    link: "https://github.com/dhanendraverma/AlbumsShare",
+    description:
+      "A web app to share the photos with the backend complex functionalities implemented using meteor.js framework",
+  },
+  {
+    img: "/song.png",
+    title: "SongShore",
+    company: "Layers",
+    period: "May 2020 - Present",
+    link: "https://github.com/dhanendraverma/SongShore",
+    description:
+      "A web application to store all of your favorite songs on Cloud and play from there.",
+  },
+];
 const Projects = (props: Props) => {
   return (
     <Section id="projects" title="Projects">
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
-        <ProjectCard
-          img="/male_avatar.avif"
-          title="Movie cloud"
-          company="Layers"
-          period="May 2020 - Present"
-          description="Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum"
-        />
-        <ProjectCard
-          img="/male_avatar.avif"
-          title="Product Designer"
-          company="Sispyhus"
-          period="Jan 2018 - May 2020"
-          description="Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum"
-        />
-        <ProjectCard
-          img="/male_avatar.avif"
-          title="UX Designer"
-          company="Catalog"
-          period="Mar 2017 - Jan 2018"
-          description="Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum"
-        />
-        <ProjectCard
-          img="/male_avatar.avif"
-          title="Visual Designer"
-          company="Quotient"
-          period="Apr 2015 - Mar 2017"
-          description="Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum Loren Iposum"
-        />
+        {ProjectsList.map((project) => (
+          <ProjectCard {...project} />
+        ))}
       </div>
     </Section>
   );

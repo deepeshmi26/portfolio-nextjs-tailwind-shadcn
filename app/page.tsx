@@ -9,16 +9,26 @@ import { Skills } from "@/components/Skills";
 const HomePage: FC = () => {
   return (
     <main>
-      <PorfolioHeader />
       <UserProfile />
       <Section id="about-me" title="About me">
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 ">
+          <p className="">
+            I am Dhanendra Verma, a <b>Lead Software Engineer</b> skilled in
+            <b>Python, C++, and cloud platforms like AWS</b>. I excel in leading
+            teams to deliver scalable solutions, with experience at
+            <b> Zoomcar, Wipro Digital, and Karza Technologies</b>.
+          </p>
           <p>
-            I am a Software developer with vast experience in backend and data.
+            Known for my{" "}
+            <b>
+              collaborative spirit, mentorship, and problem-solving abilities
+            </b>
+            , I align technical solutions with business goals to achieve
+            high-quality results.
           </p>
           <div className="bg-purple-50 text-purple-600 p-4 flex flex-row flex-wrap gap-4 justify-between">
             <div className="">
-              <div className="text-sm">College</div>
+              <div className="text-sm">University</div>
               <div className="font-semibold">NIT Raipur</div>
             </div>
             <div className="">

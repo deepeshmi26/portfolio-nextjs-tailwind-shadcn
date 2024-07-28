@@ -1,19 +1,11 @@
 "use client";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import NextLink from "next/link";
 import { usePathname } from "next/navigation";
 import { FC, useEffect, useState } from "react";
 import { Button } from "./ui/Button";
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetOverlay,
-  SheetPortal,
-  SheetTrigger,
-} from "./ui/sheet";
-import Image from "next/image";
-import { DialogClose } from "@radix-ui/react-dialog";
+import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 const Links = [
   {
     href: "/",
@@ -130,9 +122,7 @@ const Navbar: FC = () => {
             size={"icon"}
             className="text-gray-700 hover:text-primary"
           >
-            <NextLink
-              href={"https://www.linkedin.com/in/deepesh-mitra-ab2134129/"}
-            >
+            <NextLink href={"https://www.linkedin.com/in/dhanendraverma/"}>
               <img src="social-icons/linkedin.png" />
             </NextLink>
           </Button>
@@ -141,7 +131,7 @@ const Navbar: FC = () => {
             size={"icon"}
             className="text-gray-700 hover:text-primary"
           >
-            <NextLink href={"https://github.com/deepeshmi26"}>
+            <NextLink href={"https://github.com/dhanendraverma"}>
               <img src="social-icons/github.png" />
             </NextLink>
           </Button>
