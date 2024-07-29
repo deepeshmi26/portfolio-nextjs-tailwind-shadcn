@@ -45,8 +45,8 @@ const Projects = (props: Props) => {
   return (
     <Section id="projects" title="Projects">
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
-        {ProjectsList.map((project) => (
-          <ProjectCard {...project} />
+        {ProjectsList.map((project, index) => (
+          <ProjectCard key={index} {...project} />
         ))}
       </div>
     </Section>
