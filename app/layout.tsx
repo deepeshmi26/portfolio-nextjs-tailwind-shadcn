@@ -9,7 +9,7 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
     <html lang="en" className={`${Montserrat.variable}`}>
       <body className="bg-gray-100 text-gray-900 w-dvw ">
         <div
-          className="bg-no-repeat bg-repeat-x"
+          className="bg-repeat-x"
           style={{ backgroundImage: 'url("/background.avif")' }}
         >
           <Navbar />
