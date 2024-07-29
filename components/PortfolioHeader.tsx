@@ -15,7 +15,7 @@ const PorfolioHeader: FC = () => {
             objectFit: "cover",
             width: "100%",
             height: "100%",
-            transformOrigin: "top right",
+            objectPosition: "top right",
           }}
         />
       </div>
