@@ -14,8 +14,8 @@ const HomePage: FC = () => {
         <div className="flex flex-col gap-2 ">
           <p className="">
             I am Dhanendra Verma, a <b>Lead Software Engineer</b> skilled in
-            <b>Python, C++, and cloud platforms like AWS</b>. I excel in leading
-            teams to deliver scalable solutions, with experience at
+            <b> Python, C++, and cloud platforms like AWS</b>. I excel in
+            leading teams to deliver scalable solutions, with experience at
             <b> Zoomcar, Wipro Digital, and Karza Technologies</b>.
           </p>
           <p>
