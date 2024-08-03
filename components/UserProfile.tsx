@@ -18,7 +18,7 @@ const UserProfile: FC = () => {
               <div className="flex flex-col justify-end">
                 <h1 className="text-2xl font-bold">Dhanendra Verma</h1>
                 <p className="text-secondary-foreground">
-                  Software development engineer - Backend
+                  Lead engineer - Backend
                 </p>
               </div>
               <div className="flex flex-col justify-end">
@@ -27,7 +27,7 @@ const UserProfile: FC = () => {
                     href="https://drive.google.com/uc?export=download&id=19gFfZV-tGB-EQMBANJxIx4WU4iS-QAXZ"
                     download={"Dhanendra Verma CV"}
                   >
-                    Download CV
+                    Hire me!
                   </a>
                 </Button>
               </div>

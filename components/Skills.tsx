@@ -68,6 +68,10 @@ const skillsArray = [
         img: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
       },
       {
+        title: "Memcached",
+        img: "https://static-00.iconduck.com/assets.00/memcached-icon-1024x1024-v0zz2vtd.png",
+      },
+      {
         title: "MongoDB",
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/MongoDB_Logo.png/1598px-MongoDB_Logo.png?20180423174357",
       },
@@ -138,6 +142,10 @@ const skillsArray = [
         title: "Prometheus",
         img: "https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg",
       },
+      {
+        title: "Datadog",
+        img: "https://cdn.worldvectorlogo.com/logos/datadog.svg",
+      },
     ],
   },
   {
@@ -156,12 +164,17 @@ const skillsArray = [
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Jira_Logo.svg/2560px-Jira_Logo.svg.png",
       },
       {
-        title: "Git",
-        img: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
-      },
-      {
         title: "Excel",
         img: "https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg",
+      },
+    ],
+  },
+  {
+    sectionTitle: "Deployment",
+    skills: [
+      {
+        title: "Git",
+        img: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
       },
       {
         title: "Kubernetes",
@@ -174,6 +187,10 @@ const skillsArray = [
       {
         title: "Kafka",
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Apache_kafka_wordtype.svg/2560px-Apache_kafka_wordtype.svg.png",
+      },
+      {
+        title: "Jenkins",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/452px-Jenkins_logo.svg.png?20120629215426",
       },
     ],
   },

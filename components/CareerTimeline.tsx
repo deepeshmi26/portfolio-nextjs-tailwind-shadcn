@@ -48,7 +48,7 @@ const experiences = [
       "- Design, architected & implemented host price recommendation product attaining 80% adoption of recommended price, while preserving seller pricing autonomy. Deployed a new model using Event-Driven Architecture (EDA) to enhance Host Platform Rating, resulting in a 12% reduction in disputes and an 18% improvement in car quality<br> - Replaced upfront deposits with dynamic insurance through choice modeling, driving pattern analysis, and risky cohort identification<br> - Achieved and maintained a 99.9% availability rate<br> - Orchestrated a real-time personalized car recommendation engine on the search page using RESTful APIs, improving average booking rank by 20%.",
   },
   {
-    img: "/karza.jpeg",
+    img: "/zoomcar.jpeg",
     title: "Software Engineer",
     company: "Zoomcar Pvt Ltd",
     period: "2021 - 2022",
@@ -63,7 +63,7 @@ const experiences = [
     period: "2020 - 2021",
     location: "Mumbai, India",
     description:
-      "- Worked onshore at Uber Hyderabad, supporting various teams by creating tools and automating processes to enhance efficiency and accelerate operations<br> - Designed and coded application components in an Agile-driven environment using Test-Driven Development (TDD) methodology<br> - Developed integration solutions with internal and external services for prototyping and performance measurement.",
+      "- Engineered FinTech products enabling financial institutions to track stock exchange data, monitor application status across portals, detect fraud, process digital identities, and perform custom onboarding, address, and employment verification.<br> - Developed optimised, low-latency code for efficient data extraction, storage, processing, and exposure through scalable APIs.<br> - Contributed in internal frameworks to speed up the development and lower the operational costs.",
   },
   {
     img: "/wipro.webp",
@@ -72,7 +72,7 @@ const experiences = [
     period: "2018 - 2020",
     location: "Hyderabad, India",
     description:
-      "- Worked onshore at Uber Hyderabad, supporting various teams by creating tools and automating processes to enhance efficiency and accelerate operations<br> - Designed and coded application components in an Agile-driven environment using Test-Driven Development (TDD) methodology<br> - Developed integration solutions with internal and external services for prototyping and performance measurement<br> - Built a Dashboard to monitor VM node usage, which reduced downtime and improved deployment performance.",
+      "- Worked onshore at Uber Hyderabad, supporting various teams by creating tools and automating processes to enhance efficiency and accelerate operations<br> - Designed and coded application components in an Agile-driven environment using Test-Driven Development (TDD) methodology<br> - Developed integration solutions with internal and external services for prototyping and performance measurement.",
   },
 ];
 export default CareerTimeline;

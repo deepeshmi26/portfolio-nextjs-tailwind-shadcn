@@ -41,7 +41,7 @@ const HomePage: FC = () => {
             </div>
             <div className="">
               <div className="text-sm">Contact</div>
-              <div className="font-semibold">7999393939</div>
+              <div className="font-semibold">9479270869</div>
             </div>
           </div>
         </div>
